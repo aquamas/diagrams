@@ -1,17 +1,29 @@
-<mxfile host="app.diagrams.net" modified="2024-03-04T16:53:47.770Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="NAcOTrTjaCr-iMBcL1K3" version="23.1.6" type="github" pages="14">
+<mxfile host="app.diagrams.net" modified="2024-03-04T17:11:23.740Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="gYxPv4qhsA21NUErai4W" version="23.1.6" type="github" pages="14">
   <diagram id="tvSXRpU3UphhIfFDiqQ6" name="Event Driven SOA-Architektur, Komponenten Diagram">
-    <mxGraphModel dx="2052" dy="1300" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="#ffffff" math="0" shadow="0">
+    <mxGraphModel dx="2280" dy="1320" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="#ffffff" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="TDgv7upzLuO5mUSHhNDx-6" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="35" width="1120" height="192.5" as="geometry" />
+        </mxCell>
+        <mxCell id="TDgv7upzLuO5mUSHhNDx-3" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="35" y="210" width="1120" height="540" as="geometry" />
+        </mxCell>
+        <mxCell id="TDgv7upzLuO5mUSHhNDx-8" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#76608a;fontColor=#ffffff;strokeColor=#432D57;" vertex="1" parent="1">
+          <mxGeometry x="90" y="640" width="1020" height="106.25" as="geometry" />
+        </mxCell>
         <mxCell id="i1Uk4YC_onQZDa2QAg1L-52" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
-          <mxGeometry x="35" y="30" width="1120" height="897.5" as="geometry" />
+          <mxGeometry x="35" y="770" width="1120" height="157.5" as="geometry" />
         </mxCell>
         <mxCell id="i1Uk4YC_onQZDa2QAg1L-51" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="35" y="950" width="1120" height="167.5" as="geometry" />
         </mxCell>
         <mxCell id="i1Uk4YC_onQZDa2QAg1L-2" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=default;fillStyle=auto;" vertex="1" parent="1">
           <mxGeometry x="280" y="262.5" width="540" height="330" as="geometry" />
+        </mxCell>
+        <mxCell id="TDgv7upzLuO5mUSHhNDx-9" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#76608a;fontColor=#ffffff;strokeColor=#432D57;" vertex="1" parent="1">
+          <mxGeometry x="490" y="352.5" width="320" height="160" as="geometry" />
         </mxCell>
         <mxCell id="i1Uk4YC_onQZDa2QAg1L-1" value="Airflow&lt;br&gt;Orchestration&lt;br&gt;Bereitstellung von ETL Pipelines" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="527.5" y="382.5" width="230" height="90" as="geometry" />
@@ -52,12 +64,6 @@
             <mxPoint x="975" y="137.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="i1Uk4YC_onQZDa2QAg1L-13" value="" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=-0.079;exitY=0.9;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="i1Uk4YC_onQZDa2QAg1L-3" target="i1Uk4YC_onQZDa2QAg1L-17">
-          <mxGeometry width="100" height="100" relative="1" as="geometry">
-            <mxPoint x="200" y="662.5" as="sourcePoint" />
-            <mxPoint x="200" y="142.5" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="i1Uk4YC_onQZDa2QAg1L-14" value="Steuerung von Shopfloor oder&lt;br&gt;Batch Prozesse&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="415" y="612.5" width="202.5" height="30" as="geometry" />
         </mxCell>
@@ -65,7 +71,7 @@
           <mxGeometry x="355" y="482.5" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="i1Uk4YC_onQZDa2QAg1L-16" value="&lt;h1&gt;UseCases&lt;/h1&gt;&lt;div&gt;sind Datenverarbeitungs Pipelines, die als Anwendungen in der Airflow Instanz erzeugt und ausgeführt werden. Es soll dadurch ein Zugriff auf alle Prozessdaten möglich sein. Neue Anwendungen können darüber ausgeführt und getestet werden.&lt;/div&gt;" style="text;html=1;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="1290" y="470" width="190" height="170" as="geometry" />
+          <mxGeometry x="1290" y="672.5" width="190" height="170" as="geometry" />
         </mxCell>
         <mxCell id="i1Uk4YC_onQZDa2QAg1L-17" value="REST--API" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="160" y="112.5" width="80" height="60" as="geometry" />
@@ -97,11 +103,11 @@
         <mxCell id="i1Uk4YC_onQZDa2QAg1L-26" value="&lt;h1&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Besonderheiten&lt;/span&gt;&lt;/h1&gt;&lt;h1&gt;&lt;span style=&quot;background-color: initial; font-size: 12px; font-weight: normal;&quot;&gt;PLM UND ERP Systeme können veraltete Informationen in Ihren Datenbanken enthalten.&lt;br&gt;Es ist ein aktives Pullen der Daten von externen Systemen vorgesehen. Diese dürfen in vorgesehenes&lt;br&gt;Topic von Kafka Nachricht für pull hineinschreiben.&lt;/span&gt;&lt;/h1&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial; font-size: 12px; font-weight: normal;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial; font-size: 12px; font-weight: normal;&quot;&gt;Datenverarbeitung wird von Orchestrierung übernommen. Single point of truth ist in Datenbanken und Kafka Topics enthalten.&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial; font-size: 12px; font-weight: normal;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial; font-size: 12px; font-weight: normal;&quot;&gt;Kafka dient als Message Bus und zur vorzeitigen Datenverarbeitung und Aggregation von Sensordaten aus dem Shopfloor.&lt;/span&gt;&lt;/div&gt;" style="text;html=1;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1290" y="40" width="580" height="270" as="geometry" />
         </mxCell>
-        <mxCell id="i1Uk4YC_onQZDa2QAg1L-27" value="&lt;h1&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Erweiterungspotential&lt;/span&gt;&lt;/h1&gt;&lt;h1&gt;&lt;span style=&quot;font-size: 12px; font-weight: 400;&quot;&gt;Erstellung von dynamischen Datawarehouse,&amp;nbsp;&lt;/span&gt;&lt;/h1&gt;" style="text;html=1;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+        <mxCell id="i1Uk4YC_onQZDa2QAg1L-27" value="&lt;h1&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Erweiterungspotential&lt;/span&gt;&lt;/h1&gt;&lt;h1&gt;&lt;span style=&quot;font-size: 12px; font-weight: 400;&quot;&gt;Erstellung von dynamischen Datawarehouse,&lt;/span&gt;&lt;/h1&gt;&lt;h1&gt;&lt;span style=&quot;font-size: 12px; font-weight: 400;&quot;&gt;Externes Gateway für Anwendungen die von außerhalb Daten benötigen&amp;nbsp;&lt;/span&gt;&lt;/h1&gt;" style="text;html=1;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1290" y="330" width="580" height="270" as="geometry" />
         </mxCell>
         <mxCell id="i1Uk4YC_onQZDa2QAg1L-28" value="Streaming Plattform" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="220" y="682.5" width="190" height="30" as="geometry" />
+          <mxGeometry x="305" y="687.5" width="190" height="30" as="geometry" />
         </mxCell>
         <mxCell id="i1Uk4YC_onQZDa2QAg1L-29" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
           <mxGeometry x="842.5" y="387.5" width="90" height="80" as="geometry" />
@@ -175,11 +181,50 @@
             <mxPoint x="645" y="1002.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="TDgv7upzLuO5mUSHhNDx-1" value="Feldebene" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1072.5" y="960" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TDgv7upzLuO5mUSHhNDx-2" value="Hallen PC Konnektor" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1056.25" y="782.5" width="92.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TDgv7upzLuO5mUSHhNDx-5" value="Hallen PC Infrastruktur" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1056.25" y="220" width="92.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TDgv7upzLuO5mUSHhNDx-7" value="Büro PC Infrastruktur" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1056.25" y="10" width="92.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TDgv7upzLuO5mUSHhNDx-10" value="" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="i1Uk4YC_onQZDa2QAg1L-1" target="i1Uk4YC_onQZDa2QAg1L-29">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="760" y="430" as="sourcePoint" />
+            <mxPoint x="538" y="438" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TDgv7upzLuO5mUSHhNDx-11" value="MINIKUBE-Cluster" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="972.5" y="640" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TDgv7upzLuO5mUSHhNDx-12" value="MINIKUBE-Cluster" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="650" y="352.5" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TDgv7upzLuO5mUSHhNDx-14" value="Real Time Monitoring" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="402.5" width="100" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="i1Uk4YC_onQZDa2QAg1L-13" value="" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=-0.079;exitY=0.9;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="i1Uk4YC_onQZDa2QAg1L-3" target="i1Uk4YC_onQZDa2QAg1L-17">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="200" y="662.5" as="sourcePoint" />
+            <mxPoint x="200" y="142.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TDgv7upzLuO5mUSHhNDx-13" value="" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="TDgv7upzLuO5mUSHhNDx-14">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="130" y="672.5" as="sourcePoint" />
+            <mxPoint x="129" y="550" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
   <diagram id="3puoHb8h6DRgzOzg9MV9" name="Deployment Prozess">
-    <mxGraphModel dx="1026" dy="650" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1026" dy="594" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -224,7 +269,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="zK9CFSGIzoizHpDMOQV7" name="Abhängigkeiten">
-    <mxGraphModel dx="1026" dy="650" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1026" dy="594" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -386,14 +431,14 @@
     </mxGraphModel>
   </diagram>
   <diagram id="GFdTp5q02_-4oAGCeX1W" name="Segmetierung">
-    <mxGraphModel dx="933" dy="538" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1026" dy="594" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="53sUlzCWzlrsOG1Qr6TF-1" value="" style="ellipse;whiteSpace=wrap;html=1;fillStyle=solid;fillColor=#330000;" parent="1" vertex="1">
           <mxGeometry x="655" y="30" width="40" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="ZD-9s-eslq3EYfMkw9M--1" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" edge="1" target="eEqgmJsv3pMf9f5EJ8OD-12">
+        <mxCell id="ZD-9s-eslq3EYfMkw9M--1" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" target="eEqgmJsv3pMf9f5EJ8OD-12" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="674.5" y="70" as="sourcePoint" />
             <mxPoint x="675" y="150" as="targetPoint" />
@@ -416,7 +461,7 @@
         <mxCell id="eEqgmJsv3pMf9f5EJ8OD-1" value="[Manuell] || [Sensor_Triger]" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="695" y="90" width="170" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="Ms4itU-8169J2sk0SD5c-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="eEqgmJsv3pMf9f5EJ8OD-12" target="eEqgmJsv3pMf9f5EJ8OD-30">
+        <mxCell id="Ms4itU-8169J2sk0SD5c-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="eEqgmJsv3pMf9f5EJ8OD-12" target="eEqgmJsv3pMf9f5EJ8OD-30" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="eEqgmJsv3pMf9f5EJ8OD-12" value="LoadData" style="rounded=1;whiteSpace=wrap;html=1;fillStyle=auto;align=center;" parent="1" vertex="1">
@@ -446,23 +491,23 @@
         <mxCell id="DolVp_x32YViTPgiSXd4-3" value="+ path_output:List[allFiles:str]" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="DolVp_x32YViTPgiSXd4-1" vertex="1">
           <mxGeometry y="60" width="230" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="exE61UY_kP-CHywtZA6W-1" value="&lt;h1&gt;Beschreibung&lt;/h1&gt;&lt;p&gt;Aus einer Liste an Bildern werden für jedes Bild eine Segmentierung vorgenommen. Als Output wird ein Segmentiertes Bild und eine Txt-Datei erzeugt, die alle Segmente enthält.&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;Je Input -&amp;gt; Zwei Outputs -&amp;gt; [&quot;seg_image&quot;, &quot;seg_mata&quot;]&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+        <mxCell id="exE61UY_kP-CHywtZA6W-1" value="&lt;h1&gt;Beschreibung&lt;/h1&gt;&lt;p&gt;Aus einer Liste an Bildern werden für jedes Bild eine Segmentierung vorgenommen. Als Output wird ein Segmentiertes Bild und eine Txt-Datei erzeugt, die alle Segmente enthält.&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;Je Input -&amp;gt; Zwei Outputs -&amp;gt; [&quot;seg_image&quot;, &quot;seg_mata&quot;]&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="50" y="240" width="450" height="190" as="geometry" />
         </mxCell>
-        <mxCell id="2drJQ2L_EL3OgH4an9cq-1" value="ProcessDate" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="2drJQ2L_EL3OgH4an9cq-1" value="ProcessDate" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="370" y="100" width="230" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="2drJQ2L_EL3OgH4an9cq-2" value="+ path_input:List[path_image:str]&lt;br&gt;+ output_dir: dict[ source1, source2]" style="text;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;strokeWidth=1;imageAspect=1;strokeColor=default;perimeterSpacing=0;shadow=0;" vertex="1" parent="2drJQ2L_EL3OgH4an9cq-1">
+        <mxCell id="2drJQ2L_EL3OgH4an9cq-2" value="+ path_input:List[path_image:str]&lt;br&gt;+ output_dir: dict[ source1, source2]" style="text;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;strokeWidth=1;imageAspect=1;strokeColor=default;perimeterSpacing=0;shadow=0;" parent="2drJQ2L_EL3OgH4an9cq-1" vertex="1">
           <mxGeometry y="30" width="230" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="2drJQ2L_EL3OgH4an9cq-3" value="+ path_output:List[allFiles:str]" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="2drJQ2L_EL3OgH4an9cq-1">
+        <mxCell id="2drJQ2L_EL3OgH4an9cq-3" value="+ path_output:List[allFiles:str]" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="2drJQ2L_EL3OgH4an9cq-1" vertex="1">
           <mxGeometry y="60" width="230" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
   <diagram name="Preprocessing" id="sbd5s6YPFn8j8Eta1kQZ">
-    <mxGraphModel dx="1026" dy="592" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1026" dy="594" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="XE6FhpzVYcJwRMt-KTMn-0" />
         <mxCell id="XE6FhpzVYcJwRMt-KTMn-1" parent="XE6FhpzVYcJwRMt-KTMn-0" />
@@ -539,29 +584,29 @@
         <mxCell id="c-dmVmrOBjQ6JyZe14kJ-0" value="+ path_input: List[s3Folder:str]" style="text;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;strokeWidth=1;imageAspect=1;strokeColor=none;perimeterSpacing=0;shadow=0;" parent="XE6FhpzVYcJwRMt-KTMn-27" vertex="1">
           <mxGeometry y="30" width="260" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="6A7DPb1CuKDz9JPspxiw-1" value="+ path_output: List[pkt_image:str]" style="text;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;strokeWidth=1;imageAspect=1;strokeColor=default;perimeterSpacing=0;shadow=0;" vertex="1" parent="XE6FhpzVYcJwRMt-KTMn-27">
+        <mxCell id="6A7DPb1CuKDz9JPspxiw-1" value="+ path_output: List[pkt_image:str]" style="text;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;strokeWidth=1;imageAspect=1;strokeColor=default;perimeterSpacing=0;shadow=0;" parent="XE6FhpzVYcJwRMt-KTMn-27" vertex="1">
           <mxGeometry y="60" width="260" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="6A7DPb1CuKDz9JPspxiw-0" value="&lt;h1&gt;Beschreibung&lt;/h1&gt;&lt;div&gt;Bearbeitung der Punktewolken Bilder mit eingelesenen params-Daten.&lt;br&gt;Diese werden über MongoDB-Schnittstelle innerhalb der Funktion eingelesen. ( Alternativ lassen sich Daten im Load Prozess durch Parallelen Strang von MongoDB beziehen und anschließend gemeinsam als XCOM Variable pushen. Die Daten gelesen aus der MongoDB sind in der Regel Konfigurationsdaten. Diese übersteigen nicht die Memory von 4MB)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Punktewolke -&amp;gt; bearbeitete Punktewolke -&amp;gt; [&quot;pkt_image&quot;]&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="XE6FhpzVYcJwRMt-KTMn-1">
+        <mxCell id="6A7DPb1CuKDz9JPspxiw-0" value="&lt;h1&gt;Beschreibung&lt;/h1&gt;&lt;div&gt;Bearbeitung der Punktewolken Bilder mit eingelesenen params-Daten.&lt;br&gt;Diese werden über MongoDB-Schnittstelle innerhalb der Funktion eingelesen. ( Alternativ lassen sich Daten im Load Prozess durch Parallelen Strang von MongoDB beziehen und anschließend gemeinsam als XCOM Variable pushen. Die Daten gelesen aus der MongoDB sind in der Regel Konfigurationsdaten. Diese übersteigen nicht die Memory von 4MB)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Punktewolke -&amp;gt; bearbeitete Punktewolke -&amp;gt; [&quot;pkt_image&quot;]&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="XE6FhpzVYcJwRMt-KTMn-1" vertex="1">
           <mxGeometry x="10" y="320" width="420" height="220" as="geometry" />
         </mxCell>
-        <mxCell id="Q137kBzeyuGJy65M0STw-0" value="ProcessData" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="XE6FhpzVYcJwRMt-KTMn-1">
+        <mxCell id="Q137kBzeyuGJy65M0STw-0" value="ProcessData" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="XE6FhpzVYcJwRMt-KTMn-1" vertex="1">
           <mxGeometry x="284" y="85" width="206" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="Q137kBzeyuGJy65M0STw-1" value="+ path_input: List[path_pkt_image:str]" style="text;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;strokeWidth=1;imageAspect=1;strokeColor=none;perimeterSpacing=0;shadow=0;" vertex="1" parent="Q137kBzeyuGJy65M0STw-0">
+        <mxCell id="Q137kBzeyuGJy65M0STw-1" value="+ path_input: List[path_pkt_image:str]" style="text;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;strokeWidth=1;imageAspect=1;strokeColor=none;perimeterSpacing=0;shadow=0;" parent="Q137kBzeyuGJy65M0STw-0" vertex="1">
           <mxGeometry y="30" width="206" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="Q137kBzeyuGJy65M0STw-2" value="+ params: dict()" style="text;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;strokeWidth=1;imageAspect=1;strokeColor=none;perimeterSpacing=0;shadow=0;" vertex="1" parent="Q137kBzeyuGJy65M0STw-0">
+        <mxCell id="Q137kBzeyuGJy65M0STw-2" value="+ params: dict()" style="text;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;strokeWidth=1;imageAspect=1;strokeColor=none;perimeterSpacing=0;shadow=0;" parent="Q137kBzeyuGJy65M0STw-0" vertex="1">
           <mxGeometry y="60" width="206" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="Q137kBzeyuGJy65M0STw-3" value="+ path_input: List[pkt_image:str]" style="text;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;strokeWidth=1;imageAspect=1;strokeColor=default;perimeterSpacing=0;shadow=0;" vertex="1" parent="Q137kBzeyuGJy65M0STw-0">
+        <mxCell id="Q137kBzeyuGJy65M0STw-3" value="+ path_input: List[pkt_image:str]" style="text;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;strokeWidth=1;imageAspect=1;strokeColor=default;perimeterSpacing=0;shadow=0;" parent="Q137kBzeyuGJy65M0STw-0" vertex="1">
           <mxGeometry y="90" width="206" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
   <diagram name="Registrierung" id="kOj8EP1ltmCxKizfg4Pf">
-    <mxGraphModel dx="1026" dy="592" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1026" dy="594" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="hX0OEe_5FIgZINDrZgU4-0" />
         <mxCell id="hX0OEe_5FIgZINDrZgU4-1" parent="hX0OEe_5FIgZINDrZgU4-0" />
@@ -577,29 +622,29 @@
         <mxCell id="hX0OEe_5FIgZINDrZgU4-30" value="+ files_output: List[str]" style="text;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;strokeWidth=1;imageAspect=1;strokeColor=default;perimeterSpacing=0;shadow=0;" parent="hX0OEe_5FIgZINDrZgU4-27" vertex="1">
           <mxGeometry y="90" width="320" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="P3YlFpFFOTO7HOTc6Qev-0" value="&lt;h1&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Beschreibung&lt;/span&gt;&lt;/h1&gt;&lt;h1&gt;&lt;span style=&quot;background-color: initial; font-size: 12px; font-weight: normal;&quot;&gt;im path_input sind die Ordner für die bearbeiteten Punktewolken und für die Posenbestimmung der Daten enthalten.&lt;br&gt;Problem: Die Dateien wurden von jeweils unterschiedlichen Prozessen geschrieben, wie kann ein Mapping erfolgen welche Daten zusammengehören?&lt;/span&gt;&lt;/h1&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial; font-size: 12px; font-weight: normal;&quot;&gt;Unter der Annahme dass jeder Prozess in jedem Durchgang läuft und für jede Ursprungs Datei chronologisch eine Output-Datei erzeugt wird. Zusammen mit der Voraussetzung dass ausschließlich aktuelle noch nicht geladene Dateien verarbeitet werden, kann diese automation ablaufen. Die liste an Files muss in zwei geteilt werden und chronologisch von oben miteinander gepaart.&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial; font-size: 12px; font-weight: normal;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial; font-size: 12px; font-weight: normal;&quot;&gt;Chronologischer Prefix für Aufnahme des orginal Bildes kann für Mapping in folge Prozessen sorgen.&lt;/span&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="hX0OEe_5FIgZINDrZgU4-1">
+        <mxCell id="P3YlFpFFOTO7HOTc6Qev-0" value="&lt;h1&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Beschreibung&lt;/span&gt;&lt;/h1&gt;&lt;h1&gt;&lt;span style=&quot;background-color: initial; font-size: 12px; font-weight: normal;&quot;&gt;im path_input sind die Ordner für die bearbeiteten Punktewolken und für die Posenbestimmung der Daten enthalten.&lt;br&gt;Problem: Die Dateien wurden von jeweils unterschiedlichen Prozessen geschrieben, wie kann ein Mapping erfolgen welche Daten zusammengehören?&lt;/span&gt;&lt;/h1&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial; font-size: 12px; font-weight: normal;&quot;&gt;Unter der Annahme dass jeder Prozess in jedem Durchgang läuft und für jede Ursprungs Datei chronologisch eine Output-Datei erzeugt wird. Zusammen mit der Voraussetzung dass ausschließlich aktuelle noch nicht geladene Dateien verarbeitet werden, kann diese automation ablaufen. Die liste an Files muss in zwei geteilt werden und chronologisch von oben miteinander gepaart.&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial; font-size: 12px; font-weight: normal;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial; font-size: 12px; font-weight: normal;&quot;&gt;Chronologischer Prefix für Aufnahme des orginal Bildes kann für Mapping in folge Prozessen sorgen.&lt;/span&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="hX0OEe_5FIgZINDrZgU4-1" vertex="1">
           <mxGeometry x="80" y="320" width="750" height="270" as="geometry" />
         </mxCell>
-        <mxCell id="ea_YPbLGeGuacfvxNTJ8-0" value="ProcessData" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="hX0OEe_5FIgZINDrZgU4-1">
+        <mxCell id="ea_YPbLGeGuacfvxNTJ8-0" value="ProcessData" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="hX0OEe_5FIgZINDrZgU4-1" vertex="1">
           <mxGeometry x="480" y="100" width="320" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="ea_YPbLGeGuacfvxNTJ8-1" value="+ path_input: List[path_pkt_image:str]" style="text;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;strokeWidth=1;imageAspect=1;strokeColor=none;perimeterSpacing=0;shadow=0;" vertex="1" parent="ea_YPbLGeGuacfvxNTJ8-0">
+        <mxCell id="ea_YPbLGeGuacfvxNTJ8-1" value="+ path_input: List[path_pkt_image:str]" style="text;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;strokeWidth=1;imageAspect=1;strokeColor=none;perimeterSpacing=0;shadow=0;" parent="ea_YPbLGeGuacfvxNTJ8-0" vertex="1">
           <mxGeometry y="30" width="320" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="ea_YPbLGeGuacfvxNTJ8-2" value="+ path_input: List[path_pose]" style="text;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;strokeWidth=1;imageAspect=1;strokeColor=none;perimeterSpacing=0;shadow=0;" vertex="1" parent="ea_YPbLGeGuacfvxNTJ8-0">
+        <mxCell id="ea_YPbLGeGuacfvxNTJ8-2" value="+ path_input: List[path_pose]" style="text;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;strokeWidth=1;imageAspect=1;strokeColor=none;perimeterSpacing=0;shadow=0;" parent="ea_YPbLGeGuacfvxNTJ8-0" vertex="1">
           <mxGeometry y="60" width="320" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="ea_YPbLGeGuacfvxNTJ8-3" value="+ files_output: List[str]" style="text;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;strokeWidth=1;imageAspect=1;strokeColor=default;perimeterSpacing=0;shadow=0;" vertex="1" parent="ea_YPbLGeGuacfvxNTJ8-0">
+        <mxCell id="ea_YPbLGeGuacfvxNTJ8-3" value="+ files_output: List[str]" style="text;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;strokeWidth=1;imageAspect=1;strokeColor=default;perimeterSpacing=0;shadow=0;" parent="ea_YPbLGeGuacfvxNTJ8-0" vertex="1">
           <mxGeometry y="90" width="320" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="ea_YPbLGeGuacfvxNTJ8-4" value="&lt;h1&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Fragen&lt;/span&gt;&lt;/h1&gt;&lt;h1&gt;&lt;span style=&quot;background-color: initial; font-size: 12px; font-weight: normal;&quot;&gt;Input Pose ist identisch mit der abgelegten Datei von Mobilestation ?&lt;/span&gt;&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="hX0OEe_5FIgZINDrZgU4-1">
+        <mxCell id="ea_YPbLGeGuacfvxNTJ8-4" value="&lt;h1&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Fragen&lt;/span&gt;&lt;/h1&gt;&lt;h1&gt;&lt;span style=&quot;background-color: initial; font-size: 12px; font-weight: normal;&quot;&gt;Input Pose ist identisch mit der abgelegten Datei von Mobilestation ?&lt;/span&gt;&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="hX0OEe_5FIgZINDrZgU4-1" vertex="1">
           <mxGeometry x="80" y="600" width="750" height="270" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
   <diagram name="Posenbestimmung" id="2-ykHEAVtxVsrmzQg5Ll">
-    <mxGraphModel dx="1026" dy="592" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1026" dy="594" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="aqpV135lO1_rPZcty5gY-0" />
         <mxCell id="aqpV135lO1_rPZcty5gY-1" parent="aqpV135lO1_rPZcty5gY-0" />
@@ -618,7 +663,7 @@
         <mxCell id="aqpV135lO1_rPZcty5gY-30" value="+ CAD_mapping" style="text;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;strokeWidth=1;imageAspect=1;strokeColor=none;perimeterSpacing=0;shadow=0;" parent="aqpV135lO1_rPZcty5gY-27" vertex="1">
           <mxGeometry y="120" width="320" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="1zXLFIO1qScNHAefPanN-0" value="&lt;h1&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Fragen&lt;/span&gt;&lt;/h1&gt;&lt;h1&gt;&lt;span style=&quot;font-size: 12px; font-weight: 400;&quot;&gt;- Welches Dateiformat besitzt die CADMappping information txt- datei&lt;/span&gt;&lt;/h1&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px; font-weight: 400;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="aqpV135lO1_rPZcty5gY-1">
+        <mxCell id="1zXLFIO1qScNHAefPanN-0" value="&lt;h1&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Fragen&lt;/span&gt;&lt;/h1&gt;&lt;h1&gt;&lt;span style=&quot;font-size: 12px; font-weight: 400;&quot;&gt;- Welches Dateiformat besitzt die CADMappping information txt- datei&lt;/span&gt;&lt;/h1&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px; font-weight: 400;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="aqpV135lO1_rPZcty5gY-1" vertex="1">
           <mxGeometry x="90" y="370" width="730" height="160" as="geometry" />
         </mxCell>
       </root>
