@@ -1,10 +1,189 @@
-<mxfile host="app.diagrams.net" modified="2024-02-25T13:50:47.509Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="gqDLlOa8DU96gm1GKA9F" version="22.1.18" type="github" pages="13">
-  <diagram id="3puoHb8h6DRgzOzg9MV9" name="Deployment Prozess">
-    <mxGraphModel dx="1247" dy="611" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+<mxfile host="app.diagrams.net" modified="2024-03-04T16:52:08.399Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="4FQX34dvrNExvZx4Z913" version="23.1.6" type="github" pages="14">
+  <diagram id="tvSXRpU3UphhIfFDiqQ6" name="Event Driven SOA-Architektur, Komponenten Diagram">
+    <mxGraphModel dx="2052" dy="1300" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="#ffffff" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="ToOSmO1c03K3oSJItfMD-1" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" target="ToOSmO1c03K3oSJItfMD-2">
+        <mxCell id="i1Uk4YC_onQZDa2QAg1L-52" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="35" y="30" width="1120" height="897.5" as="geometry" />
+        </mxCell>
+        <mxCell id="i1Uk4YC_onQZDa2QAg1L-51" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="35" y="950" width="1120" height="167.5" as="geometry" />
+        </mxCell>
+        <mxCell id="i1Uk4YC_onQZDa2QAg1L-2" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=default;fillStyle=auto;" vertex="1" parent="1">
+          <mxGeometry x="280" y="262.5" width="540" height="330" as="geometry" />
+        </mxCell>
+        <mxCell id="i1Uk4YC_onQZDa2QAg1L-1" value="Airflow&lt;br&gt;Orchestration&lt;br&gt;Bereitstellung von ETL Pipelines" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="527.5" y="382.5" width="230" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="i1Uk4YC_onQZDa2QAg1L-3" value="Kafka- Messaging Bus" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;direction=south;" vertex="1" parent="1">
+          <mxGeometry x="100" y="672.5" width="990" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="i1Uk4YC_onQZDa2QAg1L-4" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="340" y="387.5" width="90" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="i1Uk4YC_onQZDa2QAg1L-5" value="" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=-0.079;exitY=0.453;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="i1Uk4YC_onQZDa2QAg1L-3" target="i1Uk4YC_onQZDa2QAg1L-1">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="641.79" y="632.5" as="sourcePoint" />
+            <mxPoint x="641.79" y="512.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="i1Uk4YC_onQZDa2QAg1L-6" value="" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="i1Uk4YC_onQZDa2QAg1L-4" target="i1Uk4YC_onQZDa2QAg1L-1">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="450" y="451.55" as="sourcePoint" />
+            <mxPoint x="580.2" y="387.50000000000006" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="i1Uk4YC_onQZDa2QAg1L-7" value="Batch Processing Plattform" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="290" y="272.5" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="i1Uk4YC_onQZDa2QAg1L-9" value="MQTT Broker" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="640" y="849.5" width="150" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="i1Uk4YC_onQZDa2QAg1L-10" value="ERP" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="57.5" width="200" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="i1Uk4YC_onQZDa2QAg1L-11" value="PLM" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="860" y="57.5" width="225" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="i1Uk4YC_onQZDa2QAg1L-12" value="" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=-0.102;exitY=0.119;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="i1Uk4YC_onQZDa2QAg1L-3" target="i1Uk4YC_onQZDa2QAg1L-18">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="975" y="257.5" as="sourcePoint" />
+            <mxPoint x="975" y="137.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="i1Uk4YC_onQZDa2QAg1L-13" value="" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=-0.079;exitY=0.9;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="i1Uk4YC_onQZDa2QAg1L-3" target="i1Uk4YC_onQZDa2QAg1L-17">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="200" y="662.5" as="sourcePoint" />
+            <mxPoint x="200" y="142.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="i1Uk4YC_onQZDa2QAg1L-14" value="Steuerung von Shopfloor oder&lt;br&gt;Batch Prozesse&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="415" y="612.5" width="202.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="i1Uk4YC_onQZDa2QAg1L-15" value="Binary Datenbank" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="355" y="482.5" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="i1Uk4YC_onQZDa2QAg1L-16" value="&lt;h1&gt;UseCases&lt;/h1&gt;&lt;div&gt;sind Datenverarbeitungs Pipelines, die als Anwendungen in der Airflow Instanz erzeugt und ausgeführt werden. Es soll dadurch ein Zugriff auf alle Prozessdaten möglich sein. Neue Anwendungen können darüber ausgeführt und getestet werden.&lt;/div&gt;" style="text;html=1;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1290" y="470" width="190" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="i1Uk4YC_onQZDa2QAg1L-17" value="REST--API" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="112.5" width="80" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="i1Uk4YC_onQZDa2QAg1L-18" value="REST--API" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="932.5" y="112.5" width="80" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="i1Uk4YC_onQZDa2QAg1L-21" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="i1Uk4YC_onQZDa2QAg1L-1" target="i1Uk4YC_onQZDa2QAg1L-17">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="540" y="442.5" as="sourcePoint" />
+            <mxPoint x="560" y="132.5" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="642" y="142.5" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="i1Uk4YC_onQZDa2QAg1L-23" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="110" y="62.5" width="40" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="i1Uk4YC_onQZDa2QAg1L-24" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="1040" y="62.5" width="40" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="i1Uk4YC_onQZDa2QAg1L-25" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="i1Uk4YC_onQZDa2QAg1L-18">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="640" y="142.5" as="sourcePoint" />
+            <mxPoint x="590" y="392.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="i1Uk4YC_onQZDa2QAg1L-26" value="&lt;h1&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Besonderheiten&lt;/span&gt;&lt;/h1&gt;&lt;h1&gt;&lt;span style=&quot;background-color: initial; font-size: 12px; font-weight: normal;&quot;&gt;PLM UND ERP Systeme können veraltete Informationen in Ihren Datenbanken enthalten.&lt;br&gt;Es ist ein aktives Pullen der Daten von externen Systemen vorgesehen. Diese dürfen in vorgesehenes&lt;br&gt;Topic von Kafka Nachricht für pull hineinschreiben.&lt;/span&gt;&lt;/h1&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial; font-size: 12px; font-weight: normal;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial; font-size: 12px; font-weight: normal;&quot;&gt;Datenverarbeitung wird von Orchestrierung übernommen. Single point of truth ist in Datenbanken und Kafka Topics enthalten.&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial; font-size: 12px; font-weight: normal;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial; font-size: 12px; font-weight: normal;&quot;&gt;Kafka dient als Message Bus und zur vorzeitigen Datenverarbeitung und Aggregation von Sensordaten aus dem Shopfloor.&lt;/span&gt;&lt;/div&gt;" style="text;html=1;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1290" y="40" width="580" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="i1Uk4YC_onQZDa2QAg1L-27" value="&lt;h1&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Erweiterungspotential&lt;/span&gt;&lt;/h1&gt;&lt;h1&gt;&lt;span style=&quot;font-size: 12px; font-weight: 400;&quot;&gt;Erstellung von dynamischen Datawarehouse,&amp;nbsp;&lt;/span&gt;&lt;/h1&gt;" style="text;html=1;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1290" y="330" width="580" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="i1Uk4YC_onQZDa2QAg1L-28" value="Streaming Plattform" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="220" y="682.5" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="i1Uk4YC_onQZDa2QAg1L-29" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="842.5" y="387.5" width="90" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="i1Uk4YC_onQZDa2QAg1L-30" value="Unstrukturierte&lt;br&gt;Datenbank" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="860" y="342.5" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="i1Uk4YC_onQZDa2QAg1L-31" value="" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=-0.031;exitY=0.208;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="i1Uk4YC_onQZDa2QAg1L-3" target="i1Uk4YC_onQZDa2QAg1L-29">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="920" y="662.5" as="sourcePoint" />
+            <mxPoint x="920" y="462.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="i1Uk4YC_onQZDa2QAg1L-32" value="PLC" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="992.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="i1Uk4YC_onQZDa2QAg1L-33" value="SPS" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="992.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="i1Uk4YC_onQZDa2QAg1L-34" value="Sensoren" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="575" y="992.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="i1Uk4YC_onQZDa2QAg1L-36" value="OPC-UA Server" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="265" y="852.5" width="150" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="i1Uk4YC_onQZDa2QAg1L-39" value="Ros-Master Node" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="740" y="992.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="i1Uk4YC_onQZDa2QAg1L-40" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="i1Uk4YC_onQZDa2QAg1L-36" target="i1Uk4YC_onQZDa2QAg1L-32">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="670" y="802.5" as="sourcePoint" />
+            <mxPoint x="720" y="752.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="i1Uk4YC_onQZDa2QAg1L-41" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="i1Uk4YC_onQZDa2QAg1L-36" target="i1Uk4YC_onQZDa2QAg1L-33">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="345" y="952.5" as="sourcePoint" />
+            <mxPoint x="280" y="1002.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="i1Uk4YC_onQZDa2QAg1L-44" value="MQTT-Client" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="760" y="962.5" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="i1Uk4YC_onQZDa2QAg1L-45" value="" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1.017;entryY=0.759;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="i1Uk4YC_onQZDa2QAg1L-36" target="i1Uk4YC_onQZDa2QAg1L-3">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="420" y="862.5" as="sourcePoint" />
+            <mxPoint x="520" y="762.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="i1Uk4YC_onQZDa2QAg1L-46" value="OPC-UA Connector" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="235" y="772.5" width="70" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="i1Uk4YC_onQZDa2QAg1L-47" value="" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1.017;entryY=0.759;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="721" y="852.5" as="sourcePoint" />
+            <mxPoint x="720" y="733.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="i1Uk4YC_onQZDa2QAg1L-48" value="MQTT- Connector" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="740" y="772.5" width="70" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="i1Uk4YC_onQZDa2QAg1L-49" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="i1Uk4YC_onQZDa2QAg1L-9" target="i1Uk4YC_onQZDa2QAg1L-34">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="550" y="912.5" as="sourcePoint" />
+            <mxPoint x="630" y="982.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="i1Uk4YC_onQZDa2QAg1L-50" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="i1Uk4YC_onQZDa2QAg1L-9" target="i1Uk4YC_onQZDa2QAg1L-44">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="725" y="929.5" as="sourcePoint" />
+            <mxPoint x="645" y="1002.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="3puoHb8h6DRgzOzg9MV9" name="Deployment Prozess">
+    <mxGraphModel dx="1026" dy="650" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="ToOSmO1c03K3oSJItfMD-1" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" target="ToOSmO1c03K3oSJItfMD-2" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="570" y="60" as="sourcePoint" />
             <mxPoint x="570" y="190" as="targetPoint" />
@@ -14,60 +193,60 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="ToOSmO1c03K3oSJItfMD-2" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="ToOSmO1c03K3oSJItfMD-2" value="" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="300" y="120" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="ToOSmO1c03K3oSJItfMD-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ToOSmO1c03K3oSJItfMD-3" target="ToOSmO1c03K3oSJItfMD-8">
+        <mxCell id="ToOSmO1c03K3oSJItfMD-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="ToOSmO1c03K3oSJItfMD-3" target="ToOSmO1c03K3oSJItfMD-8" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ToOSmO1c03K3oSJItfMD-3" value="Build der Images" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="ToOSmO1c03K3oSJItfMD-3" value="Build der Images" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="690" y="120" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="ToOSmO1c03K3oSJItfMD-5" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.561;entryY=-0.017;entryDx=0;entryDy=0;entryPerimeter=0;endFill=1;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" target="ToOSmO1c03K3oSJItfMD-3">
+        <mxCell id="ToOSmO1c03K3oSJItfMD-5" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.561;entryY=-0.017;entryDx=0;entryDy=0;entryPerimeter=0;endFill=1;edgeStyle=orthogonalEdgeStyle;" parent="1" target="ToOSmO1c03K3oSJItfMD-3" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="570" y="80" as="sourcePoint" />
             <mxPoint x="660" y="300" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ToOSmO1c03K3oSJItfMD-6" value="[DagsFolder]" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="ToOSmO1c03K3oSJItfMD-6" value="[DagsFolder]" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="360" y="30" width="120" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="ToOSmO1c03K3oSJItfMD-7" value="[.env]" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="ToOSmO1c03K3oSJItfMD-7" value="[.env]" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="620" y="30" width="120" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="ToOSmO1c03K3oSJItfMD-8" value="Deploy der Container" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="ToOSmO1c03K3oSJItfMD-8" value="Deploy der Container" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="690" y="240" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="ToOSmO1c03K3oSJItfMD-10" value="&lt;h1&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Build der Images&lt;/span&gt;&lt;/h1&gt;&lt;h1&gt;&lt;span style=&quot;font-size: 12px; font-weight: 400;&quot;&gt;Repository wird auf Hostmaschine gezogen.&lt;br&gt;Es werden alle Tag Nummern für Applikationen in den .env files festgehalten.&lt;/span&gt;&lt;/h1&gt;&lt;h1&gt;&lt;span style=&quot;font-size: 12px; font-weight: 400;&quot;&gt;Es wird ein Request an das Repo gesendet, um alle erhältlichen Tag Nummer zu erhalte&lt;br&gt;&lt;br&gt;&lt;/span&gt;&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+        <mxCell id="ToOSmO1c03K3oSJItfMD-10" value="&lt;h1&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Build der Images&lt;/span&gt;&lt;/h1&gt;&lt;h1&gt;&lt;span style=&quot;font-size: 12px; font-weight: 400;&quot;&gt;Repository wird auf Hostmaschine gezogen.&lt;br&gt;Es werden alle Tag Nummern für Applikationen in den .env files festgehalten.&lt;/span&gt;&lt;/h1&gt;&lt;h1&gt;&lt;span style=&quot;font-size: 12px; font-weight: 400;&quot;&gt;Es wird ein Request an das Repo gesendet, um alle erhältlichen Tag Nummer zu erhalte&lt;br&gt;&lt;br&gt;&lt;/span&gt;&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="890" y="90" width="460" height="290" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
   <diagram id="zK9CFSGIzoizHpDMOQV7" name="Abhängigkeiten">
-    <mxGraphModel dx="1710" dy="987" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1026" dy="650" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="oVXXYEIOY5k7xvLvqonv-1" value="Prozessschritt Abhängigkeiten" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" parent="1" vertex="1">
           <mxGeometry x="364" y="20" width="100" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="QH3QR7Y0n-IDuPB-t-1O-1" value="&lt;h1&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Analogien und Gemeinsamkeiten&lt;/span&gt;&lt;/h1&gt;&lt;h1&gt;&lt;span style=&quot;background-color: initial; font-size: 12px; font-weight: normal;&quot;&gt;Jeder Prozessschritt benötigt Daten und produziert Daten. Trotz unterschiedlicher Funktionen können verschiedene Prozessschritte selbe Datengrundlage benötigen. Daten werden von den Speichern heruntergeladen, neue Informationen erstellt und hochgeladen. Sollte sowohl Input als auch Output der Daten innerhalb des UseCases nicht mehr benötigt werden werden die Daten am ende des Prozessschrittes gelöscht. Falls keine weiteren unterschiedlichen Abhängigkeiten vorhanden sind , lassen sich dies in einen Prozessschritt zusammenfassen. Es entsteht so ein Vorgang in dem mehrere Output erzeugt werden. Um herauszufinden wann die Lokale Datei nicht mehr gebraucht wird, erstellt man eine Tabelle von den Input Daten. Der Prozessschritt der als letzte Instanz die Dateien braucht kann seinen Input dann löschen.&lt;/span&gt;&lt;br&gt;&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+        <mxCell id="QH3QR7Y0n-IDuPB-t-1O-1" value="&lt;h1&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Analogien und Gemeinsamkeiten&lt;/span&gt;&lt;/h1&gt;&lt;h1&gt;&lt;span style=&quot;background-color: initial; font-size: 12px; font-weight: normal;&quot;&gt;Jeder Prozessschritt benötigt Daten und produziert Daten. Trotz unterschiedlicher Funktionen können verschiedene Prozessschritte selbe Datengrundlage benötigen. Daten werden von den Speichern heruntergeladen, neue Informationen erstellt und hochgeladen. Sollte sowohl Input als auch Output der Daten innerhalb des UseCases nicht mehr benötigt werden werden die Daten am ende des Prozessschrittes gelöscht. Falls keine weiteren unterschiedlichen Abhängigkeiten vorhanden sind , lassen sich dies in einen Prozessschritt zusammenfassen. Es entsteht so ein Vorgang in dem mehrere Output erzeugt werden. Um herauszufinden wann die Lokale Datei nicht mehr gebraucht wird, erstellt man eine Tabelle von den Input Daten. Der Prozessschritt der als letzte Instanz die Dateien braucht kann seinen Input dann löschen.&lt;/span&gt;&lt;br&gt;&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="50" y="620" width="540" height="360" as="geometry" />
         </mxCell>
-        <mxCell id="QH3QR7Y0n-IDuPB-t-1O-2" value="{name: &amp;lt;UseCaseName&amp;gt;,&lt;br&gt;prozesse:[&lt;br&gt;{ prozessname:&amp;lt;Name&amp;gt;, &lt;br&gt;outputName:string[],&lt;br&gt;path_global:string[],&lt;br&gt;path_output_global:string[],&lt;br&gt;inputName:string[],&lt;br&gt;deletBuckets:string[&amp;lt;input/outputName&amp;gt;],&lt;br&gt;abhängigkeiten: string[&amp;lt;prozessname&amp;gt;]&lt;br&gt;}&lt;br&gt;...&lt;br&gt;]&lt;br&gt;}" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="QH3QR7Y0n-IDuPB-t-1O-2" value="{name: &amp;lt;UseCaseName&amp;gt;,&lt;br&gt;prozesse:[&lt;br&gt;{ prozessname:&amp;lt;Name&amp;gt;, &lt;br&gt;outputName:string[],&lt;br&gt;path_global:string[],&lt;br&gt;path_output_global:string[],&lt;br&gt;inputName:string[],&lt;br&gt;deletBuckets:string[&amp;lt;input/outputName&amp;gt;],&lt;br&gt;abhängigkeiten: string[&amp;lt;prozessname&amp;gt;]&lt;br&gt;}&lt;br&gt;...&lt;br&gt;]&lt;br&gt;}" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="550" y="630" width="260" height="180" as="geometry" />
         </mxCell>
-        <mxCell id="QH3QR7Y0n-IDuPB-t-1O-3" value="inputName ist nicht relevant. Dieser kann aus Bucketnamen von path_global extrahiert werden. path_output_global enthält Speicheradresse in der Dateien hochgeladen werden sollen.&lt;br&gt;outputName gibt Ordner auf lokalem system für output Dateien der Funktionen wieder, nicht Relevant da dieser aus bucket für path_output_global entnommen werden kann. deleteBuckets werden lokale Ordner Namen angegeben, welche sofort nach speicherung der Output dateien gelöscht werden." style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="QH3QR7Y0n-IDuPB-t-1O-3" value="inputName ist nicht relevant. Dieser kann aus Bucketnamen von path_global extrahiert werden. path_output_global enthält Speicheradresse in der Dateien hochgeladen werden sollen.&lt;br&gt;outputName gibt Ordner auf lokalem system für output Dateien der Funktionen wieder, nicht Relevant da dieser aus bucket für path_output_global entnommen werden kann. deleteBuckets werden lokale Ordner Namen angegeben, welche sofort nach speicherung der Output dateien gelöscht werden." style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="600" y="830" width="200" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="uPBd3tkrPE5pUwTjy4cO-1" value="&lt;h1&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Szenario 1&lt;/span&gt;&lt;/h1&gt;&lt;h1&gt;&lt;span style=&quot;background-color: initial; font-size: 12px; font-weight: normal;&quot;&gt;Ein Prozessschritt benötigt zur Ausführung der Funktion die Inhalte verschiedener Buckets.&lt;/span&gt;&lt;br&gt;&lt;/h1&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial; font-size: 12px; font-weight: normal;&quot;&gt;Als Input dient eine Liste mit den Namen der Buckets und Collection Namen.&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial; font-size: 12px; font-weight: normal;&quot;&gt;Für Jeden Bucket werden alle Objekte gelistet und gefiltert.&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial; font-size: 12px; font-weight: normal;&quot;&gt;Danach werden die Daten heruntergeladen.&lt;/span&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+        <mxCell id="uPBd3tkrPE5pUwTjy4cO-1" value="&lt;h1&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Szenario 1&lt;/span&gt;&lt;/h1&gt;&lt;h1&gt;&lt;span style=&quot;background-color: initial; font-size: 12px; font-weight: normal;&quot;&gt;Ein Prozessschritt benötigt zur Ausführung der Funktion die Inhalte verschiedener Buckets.&lt;/span&gt;&lt;br&gt;&lt;/h1&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial; font-size: 12px; font-weight: normal;&quot;&gt;Als Input dient eine Liste mit den Namen der Buckets und Collection Namen.&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial; font-size: 12px; font-weight: normal;&quot;&gt;Für Jeden Bucket werden alle Objekte gelistet und gefiltert.&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial; font-size: 12px; font-weight: normal;&quot;&gt;Danach werden die Daten heruntergeladen.&lt;/span&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="910" y="490" width="540" height="160" as="geometry" />
         </mxCell>
-        <mxCell id="KsTCSYBkmpZgmXjcyiAG-1" value="&lt;h1&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Vorteile einer Schema Führung bei Pfaden&lt;/span&gt;&lt;/h1&gt;&lt;h1&gt;&lt;span style=&quot;font-size: 12px; font-weight: 400;&quot;&gt;Ein Prozessschritt möchte Daten aus dem Bucket laden. Diese Daten wurden durch einen vorherigen Prozessschritt geschrieben. Durch die delete Fkt bleiben diese Daten lokal auf der Platte erhalten, sodass nur nach dem lokalen Speicherort gefragt werden müsste. Ideal wäre es wenn der Input daten Pfad dem lokalen Datenpfad entsprechen würde. Es müsste so keine Abfrage mehr erfolgen. Um dies zu erreichen müsste der Prozessschritt wissen von welchem anderen die benötigte Datei geschrieben wird. Mit dieser Information und dem Input Pfad könnte sich mit einheitlichem Schema der lokale Pfad auf Existenz prüfen. Alternativ lässt sich vor dem externen laden der Datei vom Bucket auf die lokale Zieladresse prüfen ob die Ordnerstruktur vorhanden ist. Es muss ein Mapping ausgewählt werden, sodass verschiedene Prozessschritte eines UseCases für die selbe Information den selben Ordner verwenden. Mit der Annahme, dass innerhalb der useCase Anforderung keine neuen Dateien aus einem bereits bezogenen Bucket notwendig sind, hat die Prüfung der Upload Zeit der Datei im Bucket mit dem vorhanden Lokalen Daten keine Relevanz. Bei der Implementierung der Load-Funktion muss jedoch sichergestellt werden, dass bei dem nächsten RUN des UseCases nicht der gesamte Bucket-Ordner erneut geladen wird, sondern Daten die seit letztem RUN neu dazu gekommen sind.&lt;/span&gt;&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+        <mxCell id="KsTCSYBkmpZgmXjcyiAG-1" value="&lt;h1&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Vorteile einer Schema Führung bei Pfaden&lt;/span&gt;&lt;/h1&gt;&lt;h1&gt;&lt;span style=&quot;font-size: 12px; font-weight: 400;&quot;&gt;Ein Prozessschritt möchte Daten aus dem Bucket laden. Diese Daten wurden durch einen vorherigen Prozessschritt geschrieben. Durch die delete Fkt bleiben diese Daten lokal auf der Platte erhalten, sodass nur nach dem lokalen Speicherort gefragt werden müsste. Ideal wäre es wenn der Input daten Pfad dem lokalen Datenpfad entsprechen würde. Es müsste so keine Abfrage mehr erfolgen. Um dies zu erreichen müsste der Prozessschritt wissen von welchem anderen die benötigte Datei geschrieben wird. Mit dieser Information und dem Input Pfad könnte sich mit einheitlichem Schema der lokale Pfad auf Existenz prüfen. Alternativ lässt sich vor dem externen laden der Datei vom Bucket auf die lokale Zieladresse prüfen ob die Ordnerstruktur vorhanden ist. Es muss ein Mapping ausgewählt werden, sodass verschiedene Prozessschritte eines UseCases für die selbe Information den selben Ordner verwenden. Mit der Annahme, dass innerhalb der useCase Anforderung keine neuen Dateien aus einem bereits bezogenen Bucket notwendig sind, hat die Prüfung der Upload Zeit der Datei im Bucket mit dem vorhanden Lokalen Daten keine Relevanz. Bei der Implementierung der Load-Funktion muss jedoch sichergestellt werden, dass bei dem nächsten RUN des UseCases nicht der gesamte Bucket-Ordner erneut geladen wird, sondern Daten die seit letztem RUN neu dazu gekommen sind.&lt;/span&gt;&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="910" y="659" width="540" height="510" as="geometry" />
         </mxCell>
-        <mxCell id="N6INISGcbzO-ADQNkacU-1" value="" style="group" vertex="1" connectable="0" parent="1">
+        <mxCell id="N6INISGcbzO-ADQNkacU-1" value="" style="group" parent="1" vertex="1" connectable="0">
           <mxGeometry x="24" y="150" width="803" height="360" as="geometry" />
         </mxCell>
         <mxCell id="oVXXYEIOY5k7xvLvqonv-2" value="Segmentierung" style="rounded=1;whiteSpace=wrap;html=1;" parent="N6INISGcbzO-ADQNkacU-1" vertex="1">
@@ -170,37 +349,37 @@
             <mxPoint x="310" y="309.67" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="FbSbRL0802jJUVqESCyu-1" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#fa6800;fontColor=#000000;strokeColor=#C73500;" vertex="1" parent="N6INISGcbzO-ADQNkacU-1">
+        <mxCell id="FbSbRL0802jJUVqESCyu-1" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#fa6800;fontColor=#000000;strokeColor=#C73500;" parent="N6INISGcbzO-ADQNkacU-1" vertex="1">
           <mxGeometry x="610" y="20" width="10" height="10" as="geometry" />
         </mxCell>
-        <mxCell id="FbSbRL0802jJUVqESCyu-2" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="N6INISGcbzO-ADQNkacU-1">
+        <mxCell id="FbSbRL0802jJUVqESCyu-2" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" parent="N6INISGcbzO-ADQNkacU-1" vertex="1">
           <mxGeometry x="610" y="40" width="10" height="10" as="geometry" />
         </mxCell>
-        <mxCell id="FbSbRL0802jJUVqESCyu-3" value="Input kann gelöscht werden" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="N6INISGcbzO-ADQNkacU-1">
+        <mxCell id="FbSbRL0802jJUVqESCyu-3" value="Input kann gelöscht werden" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="N6INISGcbzO-ADQNkacU-1" vertex="1">
           <mxGeometry x="617" y="10" width="186" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="FbSbRL0802jJUVqESCyu-4" value="Output kann gelöscht werden" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="N6INISGcbzO-ADQNkacU-1">
+        <mxCell id="FbSbRL0802jJUVqESCyu-4" value="Output kann gelöscht werden" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="N6INISGcbzO-ADQNkacU-1" vertex="1">
           <mxGeometry x="617" y="30" width="186" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="FbSbRL0802jJUVqESCyu-5" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#fa6800;fontColor=#000000;strokeColor=#C73500;" vertex="1" parent="N6INISGcbzO-ADQNkacU-1">
+        <mxCell id="FbSbRL0802jJUVqESCyu-5" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#fa6800;fontColor=#000000;strokeColor=#C73500;" parent="N6INISGcbzO-ADQNkacU-1" vertex="1">
           <mxGeometry x="746" y="290" width="10" height="10" as="geometry" />
         </mxCell>
-        <mxCell id="FbSbRL0802jJUVqESCyu-6" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#fa6800;fontColor=#000000;strokeColor=#C73500;" vertex="1" parent="N6INISGcbzO-ADQNkacU-1">
+        <mxCell id="FbSbRL0802jJUVqESCyu-6" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#fa6800;fontColor=#000000;strokeColor=#C73500;" parent="N6INISGcbzO-ADQNkacU-1" vertex="1">
           <mxGeometry x="390" y="290" width="10" height="10" as="geometry" />
         </mxCell>
-        <mxCell id="qn6-sPgwew95faHE9uBj-1" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#fa6800;fontColor=#000000;strokeColor=#C73500;" vertex="1" parent="N6INISGcbzO-ADQNkacU-1">
+        <mxCell id="qn6-sPgwew95faHE9uBj-1" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#fa6800;fontColor=#000000;strokeColor=#C73500;" parent="N6INISGcbzO-ADQNkacU-1" vertex="1">
           <mxGeometry x="146" y="170" width="10" height="10" as="geometry" />
         </mxCell>
-        <mxCell id="qn6-sPgwew95faHE9uBj-2" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#fa6800;fontColor=#000000;strokeColor=#C73500;" vertex="1" parent="N6INISGcbzO-ADQNkacU-1">
+        <mxCell id="qn6-sPgwew95faHE9uBj-2" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#fa6800;fontColor=#000000;strokeColor=#C73500;" parent="N6INISGcbzO-ADQNkacU-1" vertex="1">
           <mxGeometry x="385" y="180" width="10" height="10" as="geometry" />
         </mxCell>
-        <mxCell id="qn6-sPgwew95faHE9uBj-3" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#fa6800;fontColor=#000000;strokeColor=#C73500;" vertex="1" parent="N6INISGcbzO-ADQNkacU-1">
+        <mxCell id="qn6-sPgwew95faHE9uBj-3" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#fa6800;fontColor=#000000;strokeColor=#C73500;" parent="N6INISGcbzO-ADQNkacU-1" vertex="1">
           <mxGeometry x="576" y="290" width="10" height="10" as="geometry" />
         </mxCell>
-        <mxCell id="qn6-sPgwew95faHE9uBj-4" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="N6INISGcbzO-ADQNkacU-1">
+        <mxCell id="qn6-sPgwew95faHE9uBj-4" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" parent="N6INISGcbzO-ADQNkacU-1" vertex="1">
           <mxGeometry x="156" y="60" width="10" height="10" as="geometry" />
         </mxCell>
-        <mxCell id="qn6-sPgwew95faHE9uBj-6" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="N6INISGcbzO-ADQNkacU-1">
+        <mxCell id="qn6-sPgwew95faHE9uBj-6" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" parent="N6INISGcbzO-ADQNkacU-1" vertex="1">
           <mxGeometry x="756" y="290" width="10" height="10" as="geometry" />
         </mxCell>
       </root>
