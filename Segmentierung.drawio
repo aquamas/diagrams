@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-06-18T21:28:09.458Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="-Kd-QP5AbbhzC4rGm6zi" version="24.4.0" type="github" pages="26">
+<mxfile host="app.diagrams.net" modified="2024-06-19T04:59:48.191Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="MB_HOcP7xlNhOkJRl1LE" version="24.4.0" type="github" pages="26">
   <diagram id="-7dPhbhl1ZQLGsjLjybp" name="Datenfluss_Roboterstation">
     <mxGraphModel dx="2617" dy="51" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -6276,7 +6276,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="rvAEPLrO5D5NEDk2oFM6" name="genArch_aktuell">
-    <mxGraphModel dx="-890" dy="1705" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel grid="0" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
